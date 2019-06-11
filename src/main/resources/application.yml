@@ -1,0 +1,15 @@
+server:
+  port: 8848
+spring:
+  resources:
+    static-locations: classpath:/
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookmanagement
+    username: root
+    password: cyzs0419
+    driver-class-name: com.mysql.cj.jdbc.Driver
+file:
+  staticAccessPath: /static/upload/**
